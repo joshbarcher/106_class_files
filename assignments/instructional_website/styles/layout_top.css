@@ -1,0 +1,16 @@
+/*
+    Adds styles to show the navigation elements
+    on the top of the web page.
+
+    Author: Josh Archer
+    Date: 1/14/2021
+    File: layout_top.css
+ */
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    width: 33%;
+}

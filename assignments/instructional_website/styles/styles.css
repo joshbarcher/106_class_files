@@ -1,0 +1,98 @@
+/*
+    Adds color and spacing to the instructional
+    web site.
+
+    Author: Josh Archer
+    Date: 1/14/2021
+    File: styles.css
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #59423d;
+}
+
+h1 {
+    background-color: #A77E58;
+    color: #fff3b2;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 2px solid #59423d;
+}
+
+hr {
+    border-width: 0;
+}
+
+main {
+    width: 660px;
+    margin: 0 auto;
+    background-color: #D9CFC1;
+    padding: 0px 16px 10px 16px;
+    border-left: 1px solid #59423d;
+    border-right: 1px solid #59423d;
+}
+
+li {
+    margin-left: 25px;
+}
+
+h2 {
+    background: linear-gradient(to right, #A77E58 60%, #D9CFC1);
+    margin: 10px 0;
+    padding: 4px;
+    color: #f7e9e0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #59423d;
+}
+
+a:visited {
+    color: #59423d;
+}
+
+nav ul {
+     list-style-type: none;
+     margin-bottom: 15px;
+}
+
+nav li {
+    border-left: 1px solid #59423d;
+    border-right: 1px solid #59423d;
+    border-bottom: 1px solid #59423d;
+    text-align: center;
+    background-color: #A77E58;
+    margin: 0 15px;
+}
+
+nav li:hover {
+    background-color: #c49667;
+}
+
+nav a {
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+}
+
+nav a:link {
+    color: #fcf6f3;
+}
+
+nav a:visited {
+    color: #fcf6f3;
+}
