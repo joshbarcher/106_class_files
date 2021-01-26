@@ -9,4 +9,8 @@ li {
     list-style: none;
 }
 
+img {
+    width: 90%;
+}
+
 /* your style definitions go here... */
