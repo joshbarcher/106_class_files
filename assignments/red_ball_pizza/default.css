@@ -29,7 +29,7 @@ li {
 }
 
 nav.horizontal {
-   background-color:rgba(154,20,23,1.00);
+   background-color: rgb(154,20,23);
    height: 50px;
 }
 
@@ -66,12 +66,6 @@ section div {
 section div p {
    font-size: 0.9em;
    text-align: center;
-}
-
-section div p:last-of-type {
-   font-size: 0.65em;
-   text-align: right;
-   color:rgba(154,20,23,1.00); 
 }
 
 aside h1 {
